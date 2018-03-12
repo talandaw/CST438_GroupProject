@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## The Why & Who
 
-You can use the [editor on GitHub](https://github.com/talandaw/CST438_GroupProject/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the repo created for the CSUMB CST 438 project by new code++ consultants group members. The members of the aforementioned group are the 4 collobators for the project. This project was created as an experience in agile driven team development, complete with biweekly scrum meetings, the use of [pivot tracker](https://www.pivotaltracker.com/n/projects/2156378) for project management, and a slack channel created for dicussion of the project. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## The What
 
-### Markdown
+This is to be updated when the goals of the project have been decided on by the team.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## The How
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
+This is to be updated when the goals of the project have been decided on by the team.
 - Bulleted
 - List
 
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Some Potential Example Code 
+```python
+Syntax highlighted code block
+print("Hello world!")
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For Reference: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/talandaw/CST438_GroupProject/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
