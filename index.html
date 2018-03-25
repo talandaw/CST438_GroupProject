@@ -8,7 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./static/bootstrap-4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./static/css/custom.css">
-
+      
+    <!-- JS per page load -->
+    <script defer src="./static/js/fontawesome-all.min.js"></script>
+      
     <title>Select Your Game</title>
   </head>
     
@@ -17,15 +20,17 @@
  <header>
     <ul class="navigation">
   <li><a href="#">Home</a></li>
-  <li><a href="#">Scoreboard</a></li>
-  <li><a href="#">History</a></li>
-  <li><a href="#">Log In</a></li>
+  <li><a href="#">Scoreboard <i class="fas fa-clipboard-list"></i></a></li>
+  <li><a href="#">History <i class="fas fa-history"></i></a></li>
+  <li><a href="#">Log In <i class="fas fa-sign-in-alt"></i></a></li>
 </ul>
 </header>
+        
 <div class="main">
  <h1>Hello, world!</h1>
-      <p>This is just a test index page, to be intgrated into Django <br><hr>
-      <button class="btn btn-info btn-large">I don't do anything yet!</button></p>
+    <p>This is just a test index page, to be intgrated into Django <br></p><hr>
+      <p><button class="btn btn-info btn-large">I don't do anything yet!</button>
+    </p>
  
     <div class="games">
         <div class="item">Game 1 <br> HangMan</div>
@@ -33,11 +38,15 @@
         <div class="item">Game 3 <br> Tic Tac Toe</div>
         <div class="item">Game 4 <br> Pong </div>
         <div class="item">Game 5 <br> Snake</div>
-    </div>
-   
-  
-  
+    </div> 
+    <hr>
 </div>
+        
+<footer>
+    Made with <i class="fas fa-heart"></i>  by newCode++ Consultants, view this project on  
+    <a href="https://github.com/talandaw/CST438_GroupProject" target="_blank"> GitHub</a>.
+</footer>
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./static/js/jquery-3.3.1.slim.min.js"></script>
     <script src="./static/js/popper.min.js"></script>
