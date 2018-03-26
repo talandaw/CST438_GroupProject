@@ -12,16 +12,33 @@
 
 }
 
+a {
+ color: #2B7E9F;
+}
+
+body {
+    padding: 0px 1% 0px, 1%;
+    background: #F7F4E1;
+    color: #000A10;
+}
+
+h1 {
+    font-size:calc(14px + 2vmax);
+    margin: 10px;
+}
+
+
+
 .main {
   text-align: center;
    align-items: baseline;
     flex: 1;
+    font-weight: normal;
 }
 
 .navigation {
   list-style: none;
-  margin: 0;
-  background: #2376BB;
+    background: #002A4E;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -31,6 +48,7 @@
   justify-content: flex-end;
      font-size: 1em;
     font-size: 2vmin;
+    margin-bottom: 20px;
 
 }
 
@@ -38,11 +56,11 @@
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: white;
+  color: #FFF;
 }
 
 .navigation a:hover {
-  background: #0A5A9C;
+  background: #001135;
 }
 
 @media all and (max-width: 800px) {
@@ -68,6 +86,7 @@
 
   .navigation li:last-of-type a {
     border-bottom: none;
+    padding-right:10px;
   }
 }
 
@@ -82,24 +101,73 @@
 }
 
 .item {
-  background: #65A5DA;
   padding: 5px;
-  width: 30%;
+min-width: 150px;
+  max-width: 33%;
   margin: 10px;
   color: black;
-  font-weight: bold;
+    background: #F7F4E1;
  font-size: 2em;
-  font-size: 3vmax;
-  text-align: center;
+    font-size:calc(12px + 2vmin);
+    text-align: center;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .footer {
   margin: 0;
-  background: #0A5A9C;
+    padding: 10px 0px 10px 0px;
+  background: #002A4E;
   text-align: center;
+    color: #DDDAC7;
 }
 
 .footer a:hover{
-    color: white;
+    color: #4598B9;
     text-decoration: none;
+}
+
+.btn-csumb { 
+  color: #FFFFFF; 
+  background-color: #125A37; 
+  border-color: #125A37; 
+} 
+ 
+.btn-csumb:hover, 
+.btn-csumb:focus, 
+.btn-csumb:active, 
+.btn-csumb.active, 
+.open .dropdown-toggle.btn-csumb { 
+  color: #FFFFFF; 
+  background-color: #00411E; 
+  border-color: #125A37; 
+} 
+ 
+.btn-csumb:active, 
+.btn-csumb.active, 
+.open .dropdown-toggle.btn-csumb { 
+  background-image: none; 
+} 
+ 
+.btn-csumb.disabled, 
+.btn-csumb[disabled], 
+fieldset[disabled] .btn-csumb, 
+.btn-csumb.disabled:hover, 
+.btn-csumb[disabled]:hover, 
+fieldset[disabled] .btn-csumb:hover, 
+.btn-csumb.disabled:focus, 
+.btn-csumb[disabled]:focus, 
+fieldset[disabled] .btn-csumb:focus, 
+.btn-csumb.disabled:active, 
+.btn-csumb[disabled]:active, 
+fieldset[disabled] .btn-csumb:active, 
+.btn-csumb.disabled.active, 
+.btn-csumb[disabled].active, 
+fieldset[disabled] .btn-csumb.active { 
+  background-color: #125A37; 
+  border-color: #125A37; 
+} 
+ 
+.btn-csumb .badge { 
+  color: #125A37; 
+  background-color: #FFFFFF; 
 }
