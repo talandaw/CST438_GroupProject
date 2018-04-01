@@ -2,6 +2,7 @@ from turtle import Turtle, Screen
 import random
 import time
 
+
 SIZE = 20
 
 class Square:
@@ -96,9 +97,9 @@ class Game:
 
         self.screen.listen()
         self.screen.onkey(self.snakedown, "Down")
-        self.screen.onkey(self.snakeup, "Up")
-        self.screen.onkey(self.snakeleft, "Left")
         self.screen.onkey(self.snakeright, "Right")
+        self.screen.onkey(self.snakeleft, "Left")
+        self.screen.onkey(self.snakeup, "Up")
 
     def nextFrame(self):
         self.artist.clear()
