@@ -46,8 +46,7 @@ h1 {
   display: flex;
   -webkit-flex-flow: row nowrap;
   justify-content: flex-end;
-     font-size: 1em;
-    font-size: 2vmin;
+    font-size: calc(4px + 2vmin);
     margin-bottom: 20px;
 
 }
