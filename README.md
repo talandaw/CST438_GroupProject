@@ -4,7 +4,7 @@ This is the repo created for the CSUMB CST 438 project by new code++ consultants
 
 ## The What
 
-This is to be updated when the goals of the project have been decided on by the team.
+This section is for test files, verifying if this updates based on branch being shown or not.
 
 ## The How
 
