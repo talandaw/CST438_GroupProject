@@ -221,14 +221,14 @@ def main():
                 if not coords and NEW_RECT.collidepoint(event.pos):
                     board = [BLANK] * 9
                     game_over = False
-                    msg = "Ticky - Unbeatable Tic Tac Toe AI"
+                    msg = "Tic-Tac-Toe"
                     drawBoard(board, msg)
                     pygame.display.update()
                     two_player = False
                 if not coords and NEW_RECT2.collidepoint(event.pos):
                     board = [BLANK] * 9
                     game_over = False
-                    msg = "Ticky - Unbeatable Tic Tac Toe AI"
+                    msg = "Tic-Tac-Toe"
                     drawBoard(board, msg)
                     pygame.display.update()
                     two_player = True
