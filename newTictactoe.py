@@ -1,10 +1,9 @@
-def display_rule():
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    print("TIC TAC TOE!")
-    print("The ROWS & COLUMNS start at 1,1. The first number is the ROW and the second is the COLUMN.")
-    print("Enter your selection in the following format, ex: 1,2 or 3,2 or 2,3")
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    print("\n")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print("TIC TAC TOE!")
+print("The ROWS & COLUMNS start at 1,1. The first number is the ROW and the second is the COLUMN.")
+print("Enter your selection in the following format, ex: 1,2 or 3,2 or 2,3")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print("\n")
 
 
 
@@ -26,19 +25,6 @@ def game_winner(game):
 
     return "No One"
 
-
-def inputMove(inputx=""):
-    if inputx=="" :
-       return input("Enter your selection in the following format, ex: 1,2 or 3,2 or 2,3: ")
-    else:
-        return inputx
-
-def isSpotEmpty(game,row,column):
-   if game[row][column] == " ":
-       return True
-   else:
-       return False 
-
 def start_game(game):
     print("\n")
     for i in range(3):
@@ -50,7 +36,6 @@ def start_game(game):
 
 if __name__ == "__main__":
 
-    display_rule()
     ans = 'y'
     count_x = 0
     count_o = 0
@@ -64,7 +49,7 @@ if __name__ == "__main__":
         chance = True
 
         while chance:
-            spot = inputMove()
+            spot = input("Enter your selection in the following format, ex: 1,2 or 3,2 or 2,3: ")
 
             spot = spot.split(",")  # gives strings
 
@@ -73,7 +58,7 @@ if __name__ == "__main__":
 
             if count % 2 == 0:
                 print("\nPlayer 1's turn!")
-                if isSpotEmpty(game,row,column) :
+                if game[row][column] == " ":
                     game[row][column] = 'X'
                 else:
                     print("That spot is already taken. Try another spot!")
@@ -83,7 +68,7 @@ if __name__ == "__main__":
 
             else:
                 print("\nPlayer 2's turn!")
-                if isSpotEmpty(game,row,column) :
+                if game[row][column] == " ":
                     game[row][column] = 'O'
                 else:
                     print("That spot is already taken. Try another spot!")
