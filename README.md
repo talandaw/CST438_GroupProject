@@ -4,22 +4,19 @@ This is the repo created for the CSUMB CST 438 project by new code++ consultants
 
 ## The What
 
-This is to be updated when the goals of the project have been decided on by the team.
+An AWS hosted website where a user may select a game to play. They are able to see the score history of their played games, be ranked against other users in a leaderboard, and play all games through the browser via django and python.
 
 ## The How
 
 This is to be updated when the goals of the project have been decided on by the team.
-- Bulleted
-- List
+- Configuring of AWS Server
+- Deployment of django
+- Creation of python-base games
+- Integration of python code with django framework
+- Management of front end using flexbox, css grid, and bootstrap.
 
-1. Numbered
-2. List
 
 ### Some Potential Example Code 
-```python
-Syntax highlighted code block
-print("Hello world!")
-```
+This project is not yet operational. 
 
-For Reference: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
