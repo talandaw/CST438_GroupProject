@@ -1,3 +1,5 @@
+#facade
+
 from pygame.locals import *
 import pygame
 from . import pong
