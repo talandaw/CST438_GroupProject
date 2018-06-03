@@ -17,6 +17,6 @@ This is to be updated when the goals of the project have been decided on by the 
 
 
 ### Some Potential Example Code 
-This project is not yet operational. 
+This project is not currently operational. 
 
 
